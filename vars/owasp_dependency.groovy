@@ -10,6 +10,5 @@ def call() {
         --format XML \
         --out . \
         --disableNodeAudit \
-        --disableOSSIndex
     """
 }
