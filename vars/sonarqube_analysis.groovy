@@ -1,7 +1,7 @@
 def call(String sonarTool, String projectKey, String projectName) {
     echo "Running SonarQube Code Analysis..."
 
-    def scannerHome = tool Sonar
+    def scannerHome = tool 'Sonar'
 
     withSonarQubeEnv(sonarTool) {
         sh """
