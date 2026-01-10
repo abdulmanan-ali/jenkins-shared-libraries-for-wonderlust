@@ -9,7 +9,7 @@ def call() {
         --project "Wanderlust" \
         --scan . \
         --format XML \
-        --out .
+        --out . \
         --disableNodeAudit \
         --disableOSSIndex
     """
