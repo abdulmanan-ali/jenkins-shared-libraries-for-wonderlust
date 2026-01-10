@@ -1,7 +1,6 @@
 def call() {
     echo "Running OWASP Dependency Check..."
 
-    // Tool name MUST match Jenkins → Manage Jenkins → Tools
     def dcHome = tool 'OWASP'
 
     sh """
